@@ -1,0 +1,33 @@
+{
+   "name": "html_generator",
+   "version": "0.1.0",
+   "description": "HTML generator",
+   "private": true,
+   "author": {
+    "name": "Thomas Ederer",
+    "email": "thomas@orchideenvermehrung.at"
+   },
+   "licenses": [
+    {
+      "type": "BSD-3-Clause"
+    }
+   ],
+   "devDependencies": {
+      "expect.js": "0.x",
+      "grunt": "1.x",
+      "mocha": "2.x",
+      "pug-lint" : "2.x",
+      "grunt-contrib-clean": "1.x",
+      "grunt-contrib-concat": "1.x",
+      "grunt-contrib-copy": "1.x",
+      "grunt-contrib-jshint": "1.x",
+      "grunt-jsbeautifier": "~0.2.0",
+      "grunt-mocha-test": "0.x",
+      "sinon": "1.x",
+      "sinon-expect": "0.x"
+   },
+
+   "engines": {
+      "node": ">=4.4.x"
+   }
+}
